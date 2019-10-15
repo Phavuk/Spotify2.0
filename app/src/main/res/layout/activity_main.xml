@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00C5A4A4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="127dp"
+        android:layout_height="74dp"
+        android:text="Library"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars[3]" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lo-Fi House"
+        android:textSize="20"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHUFFLE PLAY"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:backgroundTint="#4CAF50"
+        android:buttonTint="#4CAF50"
+        android:textColorHighlight="#4CAF50"
+        android:textColorLink="#4CAF50"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        tools:checked="true"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="Downloaded"
+        android:textSize="18"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="190 817 Followers by Spotify"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="74dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="147dp"
+        android:layout_height="75dp"
+        android:text="@android:string/search_go"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:background="#00271E1E"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="433dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="Sweet It Out"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="bauhause.wav"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="The way they rap"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="Her Moon"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="Get Some Lfo"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="Szikra"
+                    android:textSize="28" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="#00000000"
+                    android:text="2 the"
+                    android:textSize="28" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
